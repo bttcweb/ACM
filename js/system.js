@@ -1,5 +1,5 @@
 var DATA = ["算法竞赛入门经典","算法竞赛入门经典（第二版）","啊哈!算法","C++PrimerPlus","算法导论",
-		"CodeBlocks","Dev-Cpp","Chrome","WinRAR","EVCapture"];
+		"codeblocks","Dev-Cpp","Chrome","WinRAR","EVCapture"];
 $(function () {
 	var i = 0 ;
 	$(".item").each(function(){
