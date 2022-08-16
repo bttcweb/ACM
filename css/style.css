@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	animation: display 1s;
+}
+
+/* 淡入淡出效果 */
+@keyframes display {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+body {
+	margin: 2rem;
+}
+
+header #theme {
+	text-align: center;
+	font-size: 4rem;
+	margin: 2rem;
+}
+
+.main {
+	height: 800px;
+	width: 1400px;
+	margin: 0 auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	background-image: url(../images/BTTC-ACM.png);
+}
+
+.row {
+	display: flex;
+	gap: 1rem;
+	max-width: 80rem;
+	margin-inline: auto;
+	padding: 0.5rem;
+}
+
+.item {
+	flex-basis: 0;
+	aspect-ratio: var(--ratio);
+	flex-grow: calc(var(--ratio));
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2rem;
+	position: relative;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+.item:hover {
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  	transition: 0.4s;
+}
+
+.cover{
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 99999;
+}
+
+
+/*	Download	*/
+
+#tips {
+	font-size: 30px;
+	margin: 180px 595px ;
+	position: absolute;
+}
+
+#time {
+	font-size: 30px;
+	margin: 220px 690.742px ;
+	position: absolute;
+	color: #F00;
+}
+
+#index {
+	font-size: 30px;
+	margin-top: 580px;
+	margin-left: 660px;
+	position: absolute;
+	color: #0000CD;
+	cursor: pointer;
+}
