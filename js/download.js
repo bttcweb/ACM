@@ -24,9 +24,13 @@ setTimeout(function() {
             else type = ".exe";
         }
     }
+	if ( data == "啊哈!算法") data = "default" ;
+	if ( data == "算法竞赛入门经典" ) data = "default1" ;
+	if ( data == "算法竞赛入门经典（第二版）") data = "default2" ;
+	if ( data == "算法导论") data = "default3" ;
     // 通过js添加一个提交表单实现自动下载
     var $form = $('<form method="POST"></form>');
-    $form.attr('action', './data/' + data + type);
+    $form.attr('action', 'https://github.com/bttcweb/ACM/releases/download/data/' + data + type);
     $form.appendTo($('body'));
     $form.submit();
 }, 1000);
