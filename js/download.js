@@ -43,8 +43,8 @@ var home = function() {
 
 $("#index").click(function(){home();});
 
-// 直接访问github pages太慢了，等待5s改为等待15s
-var time = 15 ;
+// 直接访问github pages太慢了，等待5s改为等待9s
+var time = 9 ;
 setInterval(function(){
 	if ( time == 1 ) home();
 	$("#time").text(time-=1);
