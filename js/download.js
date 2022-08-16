@@ -11,7 +11,7 @@ console.log(data);
 
 // 资源全称
 var DATA = ["算法竞赛入门经典", "算法竞赛入门经典（第二版）", "啊哈!算法", "C++PrimerPlus", "算法导论", 
-			"CodeBlocks", "Dev-Cpp", "Chrome", "WinRAR", "EVCapture"];
+			"codeblocks", "Dev-Cpp", "Chrome", "WinRAR", "EVCapture"];
 
 // 延时自动下载
 setTimeout(function() {
